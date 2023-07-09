@@ -22,3 +22,5 @@ Depends:
 Suggests:
     ggplot2
 LazyData: true
+URL: https://github.com/mine-cetinkaya-rundel/dinosaurs
+BugReports: https://github.com/mine-cetinkaya-rundel/dinosaurs/issues
