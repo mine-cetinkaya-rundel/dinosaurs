@@ -17,13 +17,12 @@
 #'
 #' library(ggplot2)
 #'
-#' # Finishing times
 #' ggplot(dinosaurs, aes(x = vore)) +
 #'   geom_bar() +
 #'   labs(
 #'     title = "What dinosaurs eat",
 #'     x = "Vore",
 #'     y = "Count"
-#'     )
+#'   )
 #'
 "dinosaurs"
