@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# dinosaurs
+# dinosaurs 🦖🦕
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/mine-cetinkaya-rundel/dinosaurs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mine-cetinkaya-rundel/dinosaurs/actions/workflows/R-CMD-check.yaml)
