@@ -21,6 +21,9 @@ knitr::opts_chunk$set(
 
 The goal of dinosaurs is to provide a dataset on dinosaur species.
 
+The package is currently a work in progress. 
+We are working on collecting more data at <https://docs.google.com/spreadsheets/d/1Du5yUoZfhB4fKtmkrHUZq9dmYMgM5-Gda99fi3-A9eI>.
+
 ## Installation
 
 You can install the development version of dinosaurs from [GitHub](https://github.com/) with:
