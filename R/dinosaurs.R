@@ -17,12 +17,13 @@
 #'
 #' library(ggplot2)
 #'
-#' ggplot(dinosaurs, aes(x = vore)) +
-#'   geom_bar() +
+#' ggplot(dinosaurs, aes(x = vore, fill = vore)) +
+#' geom_bar(show.legend = FALSE) +
 #'   labs(
-#'     title = "What dinosaurs eat",
+#'     title = "What dinosaurs eat 🦖",
 #'     x = "Vore",
 #'     y = "Count"
-#'   )
-#'
+#'   ) +
+#'   scale_fill_manual(values = c("firebrick1", "forestgreen", "deepskyblue")) +
+#'   theme_minimal()
 "dinosaurs"
