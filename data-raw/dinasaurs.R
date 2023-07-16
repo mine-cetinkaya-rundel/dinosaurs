@@ -7,8 +7,7 @@ library(tidyverse)
 
 dinosaurs_raw <- read_sheet("1Du5yUoZfhB4fKtmkrHUZq9dmYMgM5-Gda99fi3-A9eI")
 
-dinosaurs <- dinosaurs_raw |>
-  mutate(vore = fct_relevel(vore, "carnivore", "herbivore", "pescavore"))
+dinosaurs <- dinosaurs_raw
 
 # use data ---------------------------------------------------------------------
 

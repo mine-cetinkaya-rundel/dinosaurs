@@ -27,6 +27,7 @@ Numerous variables on ___ species of dinosaurs collected from various resources.
 
 library(ggplot2)
 
+# What dinosaurs eat
 ggplot(dinosaurs, aes(x = vore, fill = vore)) +
 geom_bar(show.legend = FALSE) +
   labs(
@@ -34,7 +35,18 @@ geom_bar(show.legend = FALSE) +
     x = "Vore",
     y = "Count"
   ) +
-  scale_fill_manual(values = c("firebrick1", "forestgreen", "deepskyblue")) +
+  scale_fill_manual(values = c("firebrick1", "forestgreen")) +
+  theme_minimal()
+
+# Where dinosaurs live
+ggplot(dinosaurs, aes(y = ecosystem, fill = ecosystem)) +
+geom_bar(show.legend = FALSE) +
+  labs(
+    title = "Where dinosaurs live 🌎",
+    y = "Ecosystem",
+    x = "Count"
+  ) +
+  scale_fill_manual(values = c("chocolate3", "darkseagreen2", "deepskyblue3")) +
   theme_minimal()
 }
 \keyword{datasets}
