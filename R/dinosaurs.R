@@ -1,6 +1,6 @@
 #' Dinosaur species
 #'
-#' Numerous variables on ___ species of dinosaurs collected from various resources.
+#' Numerous variables on species of dinosaurs collected from various resources.
 #'
 #' @name dinasours
 #' @docType data
@@ -11,7 +11,7 @@
 #'   \item{vore}{Vore of species: `carnivore`, `herbivore`, or `pescavore`.}
 #'   \item{name_mening}{Meaning of species name.}
 #'   }
-#' @source Various
+#' @source Various, mostly Wikipedia.
 #' @keywords datasets
 #' @examples
 #'

@@ -15,13 +15,13 @@ A data frame with 20 observations on the following 4 variables.
 }
 }
 \source{
-Various
+Various, mostly Wikipedia.
 }
 \usage{
 dinosaurs
 }
 \description{
-Numerous variables on ___ species of dinosaurs collected from various resources.
+Numerous variables on species of dinosaurs collected from various resources.
 }
 \examples{
 
