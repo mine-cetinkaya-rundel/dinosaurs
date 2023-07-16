@@ -26,7 +26,8 @@ devtools::install_github("mine-cetinkaya-rundel/dinosaurs")
 
 ## Example
 
-This is a basic example showing the package usage:
+This package contains the `dinosaurs` dataset which can be used to make
+simple plots like the following:
 
 ``` r
 library(dinosaurs)
