@@ -31,7 +31,7 @@
 #'     x = "Vore",
 #'     y = "Count"
 #'   ) +
-#'   scale_fill_manual(values = c("firebrick1", "forestgreen")) +
+#'   scale_fill_manual(values = c("firebrick1", "forestgreen", "bisque4")) +
 #'   theme_minimal()
 #'
 #' # Where dinosaurs lived
